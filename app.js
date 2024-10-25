@@ -96,7 +96,7 @@ function toggleFavorite(event) {
             fav.textContent = '⭐ ⭐ ⭐'; //add the star text to fav
             target.parentElement.appendChild(fav); //append fav element to the title
         } else {
-            event.target.textContent = 'Add to Favorites'; // change the text back to "Add"
+            event.target.textContent = 'ADD TO FAVORITES'; // change the text back to "Add"
             target.nextSibling.remove(); //remove the favorite status indicator (stars)
         }
     }
